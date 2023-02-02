@@ -14,7 +14,7 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 final Map<String,String> Image_Path={'Start_Screen':'assets/images/start_screen.svg','Home_Body_Background':'assets/images/Home_Body_Background.svg','Station_List_Background':'assets/images/Station_List_Background.svg','Predicted_Time_Background':'assets/images/Predicted_Time_Background.svg'};
 final logger=Logger(printer: PrettyPrinter());
-final My_Server='3.34.200.50:443';
+final My_Server='Private';
 
 
 Timer ?timer;
